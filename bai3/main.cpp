@@ -56,4 +56,9 @@ int main() {
 	cout << "So luong sua cuu : " << Sheep::getMilkCount() << " lit" << endl;
 	cout << "--------------------------" << endl;
 
+	cout << "--------------------------" << endl;
+	cout << "Tong luong sua : " << Cow::getMilkCount() + Goat::getMilkCount() + Sheep::getMilkCount() << " lit" << endl;
+	cout << "--------------------------" << endl;
+	cout << endl;
+
 }
